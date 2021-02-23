@@ -1,0 +1,73 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.tp.spark.core.Ex4InvertedIndexSpec, org.scalatest.tools.Framework$$anon$1@27395aa2, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.tp.spark.core.Ex0WordcountDFSpec, org.scalatest.tools.Framework$$anon$1@27395aa2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEx4InvertedIndexSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an inverted index[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.tp.spark.core.Ex0WordcountSpec, org.scalatest.tools.Framework$$anon$1@27395aa2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEx0WordcountSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- number of data loaded[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- countWord should count the occurrences of each word[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- filterOnWordcount should keep the words which appear more than 4 times[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.tp.spark.core.Ex1UserMiningDFSpec, org.scalatest.tools.Framework$$anon$1@27395aa2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEx0WordcountDFSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- number of data loaded *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  44 was not equal to 809 (Ex0WordcountDFSpec.scala:13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- countWord should count the occurrences of each word *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:230)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountDF$.wordcountDF(Ex0WordcountDF.scala:30)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountDFSpec$$anonfun$2.apply$mcV$sp(Ex0WordcountDFSpec.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountDFSpec$$anonfun$2.apply(Ex0WordcountDFSpec.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountDFSpec$$anonfun$2.apply(Ex0WordcountDFSpec.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- filterOnWordcount should keep the words which appear more than 4 times *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:230)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountDF$.filterOnWordcountDF(Ex0WordcountDF.scala:37)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountDFSpec$$anonfun$3.apply$mcV$sp(Ex0WordcountDFSpec.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountDFSpec$$anonfun$3.apply(Ex0WordcountDFSpec.scala:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.tp.spark.core.Ex0WordcountDFSpec$$anonfun$3.apply(Ex0WordcountDFSpec.scala:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.tp.spark.core.Ex2TweetMiningSpec, org.scalatest.tools.Framework$$anon$1@27395aa2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEx2TweetMiningSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should count the persons mentioned on tweets[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should count the number for each user mention[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should define the top10[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.tp.spark.core.Ex3HashTagMiningSpec, org.scalatest.tools.Framework$$anon$1@27395aa2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEx3HashTagMiningSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should count the hashtag mentioned on tweets[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should count the number of mention by hashtag[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should define the top10[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.tp.spark.core.Ex1UserMiningSpec, org.scalatest.tools.Framework$$anon$1@27395aa2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEx1UserMiningSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should count the number of couple (user, tweets)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- tweetByUserNumber should count the number of tweets by user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the top ten twitterers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEx1UserMiningDFSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should count the number of couple (user, tweets)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- tweetByUserNumber should count the number of tweets by user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the top ten twitterers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 19 seconds, 425 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 19[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 7, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 16, failed 3, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 3 TESTS FAILED ***[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.tp.spark.core.Ex2TweetMiningSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.tp.spark.core.Ex1UserMiningDFSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.tp.spark.core.Ex1UserMiningSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.tp.spark.core.Ex3HashTagMiningSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.tp.spark.core.Ex4InvertedIndexSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.tp.spark.core.Ex0WordcountSpec[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	com.tp.spark.core.Ex0WordcountDFSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

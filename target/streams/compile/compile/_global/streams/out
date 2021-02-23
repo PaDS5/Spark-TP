@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/paul/Bureau/spark-lab-json/src/main/scala/com/tp/spark/core/Ex2TweetMining.scala:53:30: value lenfth is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m              .filter(x => x.lenfth > 1)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

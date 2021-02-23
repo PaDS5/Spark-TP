@@ -1,0 +1,8 @@
+#Successful Tests
+#Mon Feb 22 14:44:12 CET 2021
+com.tp.spark.core.Ex2TweetMiningSpec=1614001443067
+com.tp.spark.core.Ex3HashTagMiningSpec=1614001446019
+com.tp.spark.core.Ex1UserMiningSpec=1614001449147
+com.tp.spark.core.Ex0WordcountSpec=1614001438242
+com.tp.spark.core.Ex4InvertedIndexSpec=1614001437000
+com.tp.spark.core.Ex1UserMiningDFSpec=1614001452253
